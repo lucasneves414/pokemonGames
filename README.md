@@ -1,6 +1,6 @@
 # PokemonGames
-// Esse projeto é um site de página única que tem como objetivo listar características das gerações de games do Pokemon. 
-// Pra isso, se é exibido 8 opções, que são as relativas gerações, e, ao clicar em uma, os dados aparecem em baixo dessa label.
+Esse projeto é um site de página única que tem como objetivo listar características das gerações de games do Pokemon. 
+Pra isso, se é exibido 8 opções, que são as relativas gerações, e, ao clicar em uma, os dados aparecem em baixo dessa label.
 
 
 ## Requisitos para Rodar Local
