@@ -7,11 +7,11 @@
 - Instalar [NodeJs](https://nodejs.org/en/)
 
 ## Passos para rodar
-1 - Copie o projeto do git https://github.com/lucasneves414/pokemonGames
-2 - Abra a pasta local do projeto no terminal
-3 - Rode o comando `npm install`, certifique-se que não ocorreu nenhum erro
-4 - Rode o pojeto com ng serve
-5 - Copie o link do terminal, provavelmente esse (http://localhost:4200/), e cole no navegador. Click enter. Pronto
+- 1 Copie o projeto do git https://github.com/lucasneves414/pokemonGames
+- 2 Abra a pasta local do projeto no terminal
+- 3 Rode o comando `npm install`, certifique-se que não ocorreu nenhum erro
+- 4 Rode o pojeto com ng serve
+- 5 Copie o link do terminal, provavelmente esse (http://localhost:4200/), e cole no navegador. Click enter. Pronto
 
 
 ## FrameWorks Usados pra Criar Esse Projeto
