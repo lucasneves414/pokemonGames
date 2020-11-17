@@ -4,7 +4,6 @@
 
 
 ## Requisitos para Rodar Local
-
 - Instalar [NodeJs](https://nodejs.org/en/)
 
 ## Passos para rodar
@@ -25,3 +24,6 @@ Visual Studio Code
 
 ## Ferramentas
 Angular CLI
+
+## Sistemas de Controle de Versão
+Git
