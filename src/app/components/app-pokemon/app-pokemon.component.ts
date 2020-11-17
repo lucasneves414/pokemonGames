@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app-pokemon.component.css']
 })
 export class AppPokemonComponent implements OnInit {
-  // generationNumber: string = "1";
 
   generationNumber: { id: number, generation: string }[] = [
     { "id": 1, "generation": "ReadKantoy" },
@@ -27,15 +26,15 @@ export class AppPokemonComponent implements OnInit {
   constructor(private apiPokemonService: ApiPokemonService) { }
   ngOnInit(): void {
   }
+
   getter(number){
     this.apiPokemonService.getGames(number).subscribe((data : Generation) => {
       this.generation = data;
-      console.log('generationNumber -->', this.generationNumber);
-      console.log('Generation -->', this.generation);
     }, (error: any) => {
       this.erro = error;
-      console.log(this.erro);
+      alert(error);
 
     })
   }
+
 }
